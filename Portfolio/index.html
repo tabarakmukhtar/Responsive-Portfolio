@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("YabRVWgikYsILezo0");
+  })();
+</script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tabarak Mukhtar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button id="theme-toggle"><img id="theme-icon" src="Images/sun.png" alt="Toggle Theme"></button>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Hi, I'm Tabarak Mukhtar</h2>
+            <h4>Passionate Software Engineer</h4>
+            <p>A recent Computer Science Engineering graduate from MyCEM with a passion for software engineering and web development. During my academic journey, I gained hands-on experience in various programming languages and technologies through coursework and personal projects. I am enthusiastic about leveraging my skills to contribute to impactful software solutions.</p>
+            <div class="buttons">
+                <a href="resume.pdf" class="btn" id="resume-btn" target="_blank">Resume</a>
+                <a href="#contact" class="btn" id="hire-me-btn">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="Images/Project 1.png" alt="Project 1">
+                    <h3>CERTIFICATE VALIDATION USING BLOCKCHAIN</h3>
+                    <p>Utilizes blockchain's immutable ledger for certificate integrity.<br>
+                        Features:
+                        Immutable records ensure authenticity.
+                        Decentralized validation eliminates intermediaries.
+                        Transparency via blockchain ledger.
+                        Cost-effective and time-efficient verification.
+                        Enhanced security with cryptographic techniques.
+                        Technologies:
+                        Blockchain platforms like Ethereum, Hyperledger.
+                        Smart contracts automate validation.
+                        Cryptographic methods ensure secure data.
+                        Decentralized storage for documents.
+                        Implementing blockchain for certificate validation boosts trust and efficiency.</p>
+                    <a href="https://github.com/tabarakmukhtar/certificatevalidationusingblockchainn" target="_blank">GitHub</a>
+                    <a href="http://13.114.47.73:5000/">Live Demo</a>
+                </div>
+                <div class="project">
+                    <img src="Images/Project 2.png" alt="Project 2">
+                    <h3>GYM MANAGEMENT SYSTEM</h3>
+                    <p>Efficiently manages gym operations through digital solutions.<br>
+                        Key Features:
+                        Member management for registration and tracking.
+                        Automated scheduling for classes and appointments.
+                        Inventory management for equipment and supplies.
+                        Billing and payment processing for memberships.
+                        Performance tracking for members' progress.<br>
+                        Technologies:
+                        Database management system for data storage.
+                        Integration with payment gateways for transactions.
+                        Analytics tools for performance evaluation.
+                        A Gym Management System optimizes gym operations, enhancing member experience and business efficiency.</p>
+                    <a href="https://github.com/tabarakmukhtar/DBMS-Gym-Management-System" target="_blank">GitHub</a>
+                    <a href="https://tabarakmukhtar.github.io/DBMS-Gym-Management-System/">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>HTML/CSS/JS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JAVA</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>MySQL</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Data Structure</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>DBMS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Bachelor of Engineering in Computer Science And Engineering</h3>
+                <p><strong>Institution:</strong> Mysore College Of Engineering And Management, VTU Mysuru, Karnataka, August 2019 - June 2023</p>
+                <p>Completed coursework in Programming, Data Structures, Algorithms, Web Development, Computer Network, OS and Database Systems.</p>
+            </div>
+            <div class="experience-item">
+                <h3> Full Stack Web Developer Intern</h3>
+                <p>VARCONS TECHNOLOGIES PVT LTD, Nov 2022 - Dec 2022</p>
+                <ul>
+                    <li>Developed a fully functional website for a cafe using Python, Django, SQL, HTML, CSS, and JavaScript.</li>
+                    <li>Created responsive and user-friendly web pages ensuring cross-browser compatibility.</li>
+                    <li>Implemented server-side logic with Django, managing data storage with SQL databases.</li>
+                    <li>Enhanced website performance by optimizing database queries and implementing efficient coding practices, resulting in a 30% increase in application speed.</li>
+                    <li>Utilized Git for version control to manage and track changes in the codebase.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Java Developer Intern</h3>
+                <p>KODNEST TECHNOLOGIES PVT LTD, Jan 2023 - Apr 2023</p>
+                <ul>
+                    <li>Developed a comprehensive e-commerce platform using J2EE, Java, JSP, JDBC, OOP principles, and SQL.</li>
+                    <li>Created dynamic and interactive web interfaces enhancing the user shopping experience.</li>
+                    <li>Implemented robust back-end services with Java, Servlets, managing product listings, user sessions, and order processing.</li>
+                    <li>Designed and managed the SQL database, optimizing queries for faster data retrieval and ensuring data integrity.</li>
+                    <li>Improved system performance by optimizing code and implementing advanced features, reducing page load times by 30% and increasing user engagement.</li>
+                </ul>
+            </div>
+            <!-- Add more experience items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tabarak Mukhtar </p>
+            <ul class="social-links">
+                <li><a href="mailto:tabarakmukhtar159@gmail.com"><img src="Images/email.png" alt="Email"></a></li>
+                <li><a href="https://github.com/tabarakmukhtar"><img src="Images/github.png" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/tabarakmukhtar"><img src="Images/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.facebook.com/tabarak.mukhtar.7"><img src="Images/facebook.png" alt="Facebook"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button id="back-to-top" title="Back to Top">&#8679;</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
