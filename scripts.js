@@ -67,7 +67,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     emailjs.send("service_azle1go", "template_ib4f92u", {
         name: name,
         email: email,
-        message: message
+        message: message,
+        reply_to: email  // Ensure reply_to is used for sender's email
     })
     .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
